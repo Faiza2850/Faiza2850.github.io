@@ -75,19 +75,23 @@ main hr {
 }
 
 .leftSection .btn {
-    padding: 12px;
+    padding: 12px 20px;
     background: #1e2167;
     color: white;
     border: 2px solid white;
     border-radius: 6px;
     font-size: 20px;
     cursor: pointer;
+    display: inline-flex;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 
 
 }
-
-
-
+.btn a {
+    color: #ffffff;               /* Link color */
+    text-decoration: none;        /* Remove underline from link */
+    font-size: 16px;              /* Font size */
+}
 
 .rightSection img {
     width: 85%;
